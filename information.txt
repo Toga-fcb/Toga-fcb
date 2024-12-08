@@ -1,0 +1,10 @@
+Firstly this loader asks you for login and password, after you
+entered the password, it checks if it is correct or no. If 
+it is not correct, it will close, but if it is correct, after it
+will check your HWID/UUID. Every computer has its own unique UUID/HWID.
+If HWID/UUID is not correct it will also close, but if it correct, it will
+firstly download the file, then you need to find where's the file is downloaded. 
+If it is zip-file please use lib named "zipfile" and then make function for unzipping
+the file. You can ask ChatGPT to make it, if it is hard for you. after it downloaded, it
+will start the file that you wrote in variable "bat_path". If it couldn't start the programm, please 
+check if you wrote correct path to your file. 
